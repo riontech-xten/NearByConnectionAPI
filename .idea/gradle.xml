@@ -8,7 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/ConnectionApi" />
+            <option value="$PROJECT_DIR$/P2PStarConnection" />
             <option value="$PROJECT_DIR$/sample" />
           </set>
         </option>

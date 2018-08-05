@@ -1,1 +1,1 @@
-include ':sample', ':ConnectionApi'
+include ':sample', ':P2PStarConnection'
