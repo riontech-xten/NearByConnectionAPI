@@ -12,13 +12,13 @@ import android.widget.EditText;
 
 import com.google.android.gms.nearby.connection.Payload;
 import com.google.gson.Gson;
-import com.google.location.nearby.apps.chat.AppController;
-import com.google.location.nearby.apps.chat.R;
-import com.google.location.nearby.apps.chat.listener.NearbyDataListener;
-import com.google.location.nearby.apps.chat.listener.NearbyEndpointListener;
-import com.google.location.nearby.apps.chat.model.MessageWrapper;
-import com.google.location.nearby.apps.chat.service.ConnectionService;
-import com.google.location.nearby.apps.chat.ui.adapter.ChatAdapter;
+import com.xtensolution.connectionapi.listener.NearbyDataListener;
+import com.xtensolution.connectionapi.listener.NearbyEndpointListener;
+import com.xtensolution.connectionapi.model.MessageWrapper;
+import com.xtensolution.connectionapi.service.ConnectionService;
+import com.xtensolution.nearbyconnection.R;
+import com.xtensolution.nearbyconnection.SampleApp;
+import com.xtensolution.nearbyconnection.ui.adapter.ChatAdapter;
 
 import java.util.ArrayList;
 
@@ -38,7 +38,7 @@ public class HostChatRoomActivity extends AppCompatActivity implements
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chat);
-        connectionService = AppController.getInstance().getConnectionService();
+        connectionService = SampleApp.getInstance().getConnectionService();
         connectionService.setNearbyDataListener(this);
         connectionService.setNearbyEndpointListener(this);
 

@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.EditText;
 
 
+import com.google.android.gms.nearby.connection.Payload;
 import com.google.gson.Gson;
 import com.xtensolution.connectionapi.listener.NearbyDataListener;
 import com.xtensolution.connectionapi.model.MessageWrapper;

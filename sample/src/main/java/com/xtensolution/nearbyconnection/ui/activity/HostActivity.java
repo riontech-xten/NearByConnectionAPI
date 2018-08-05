@@ -7,9 +7,8 @@ import android.support.annotation.Nullable;
 import android.view.View;
 
 import com.google.android.gms.nearby.connection.ConnectionInfo;
-import com.google.location.nearby.apps.chat.listener.NearbyAdvertisingListener;
-import com.google.location.nearby.apps.chat.service.ConnectionService;
-import com.google.location.nearby.apps.chat.service.ConnectionService.Endpoint;
+import com.xtensolution.connectionapi.listener.NearbyAdvertisingListener;
+import com.xtensolution.connectionapi.service.ConnectionService;
 
 public class HostActivity extends EndpointActivity implements NearbyAdvertisingListener {
 

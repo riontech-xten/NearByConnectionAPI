@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.View;
 
+import com.google.android.gms.nearby.connection.ConnectionInfo;
 import com.xtensolution.connectionapi.listener.NearbyDiscoveringListener;
 import com.xtensolution.connectionapi.service.ConnectionService.Endpoint;
 

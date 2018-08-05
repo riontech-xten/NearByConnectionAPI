@@ -27,7 +27,7 @@
   <string name="game_score">%1$d : %2$d</string>
     <string name="create">Create</string>
     <string name="connecting">Connecting...</string>
-    <string name="become_a_host">Become a Host</string>
-  <string name="become_a_client">Become a client</string>
+    <string name="become_a_host">Start Advertising (Host)</string>
+  <string name="become_a_client">Start Discovery (Client)</string>
     <string name="host_chat_room">Host Chat Room</string>
 </resources>

@@ -20,6 +20,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
+import com.google.android.gms.nearby.connection.Payload;
+import com.google.android.gms.nearby.connection.Strategy;
 import com.xtensolution.connectionapi.listener.NearByServiceListener;
 import com.xtensolution.connectionapi.listener.NearbyConnectionListener;
 import com.xtensolution.connectionapi.listener.NearbyDataListener;
